@@ -71,4 +71,4 @@ for tam in 00256 00512 01024 02048 04096 08192 16384 32768; do
   echo "${tam};${res_s};${res_m}" >> ${RESULT_FILE}
 done
 
-echo "$(date) Testes finalizados. Veja resultado no arquivo ${FILE}" >> ${LOG_FILE}
+echo "$(date) Testes finalizados. Veja resultado no arquivo ${LOG_FILE}!"
