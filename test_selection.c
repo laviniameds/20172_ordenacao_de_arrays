@@ -27,10 +27,10 @@ int main(){
   double time_spent = (double)(end - begin) / (CLOCKS_PER_SEC/1000);
   if (check_sorted(a,size)){
     /* Ordenado */
-    printf("%lf\n",time_spent);
+    printf("OK:%lf\n",time_spent);
   } else {
     /* Não ordenado */
-    printf("(%lf)\n",time_spent);
+    printf("NOK:%lf\n",time_spent);
   }
   return 0;
 }
